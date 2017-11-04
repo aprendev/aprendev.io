@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Aprendev
+email:       ericopedroso@gmail.com
+author:      Erico Pedroso, Carolina Karklis
+description: "Plataforma de artigos colaborativos para desenvolvedores e aspirantes."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "https://aprendev.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
@@ -69,12 +69,12 @@ telegram_username:
 vk_id:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
-share_googleplus: false
-share_linkedin: false
+share_facebook: true
+share_twitter: true
+share_googleplus: true
+share_linkedin: true
 share_digg: false
 share_tumblr: false
 share_reddit: false
@@ -83,36 +83,36 @@ share_hackernews: false
 
 text:
   pagination:
-    newer: 'Newer'
-    older: 'Older'
+    newer: 'Novos'
+    older: 'Antigos'
   share_buttons:
-    text:         'Share this post!'
-    facebook:     'Share on Facebook'
-    twitter:      'Share on Twitter'
-    googleplus:   'Share on Google+'
-    linkedin:     'Share on LinkedIn'
-    digg:         'Share on Digg'
-    tumblr:       'Share on Tumblr'
-    reddit:       'Share on Reddit'
-    stumbleupon:  'Share on StumbleUpon'
-    hackernews:   'Share on Hacker News'
+    text:         'Compartilha!'
+    facebook:     'Compartilhe no Facebook'
+    twitter:      'Compartilhe no Twitter'
+    googleplus:   'Compartilhe no Google+'
+    linkedin:     'Compartilhe no LinkedIn'
+    digg:         'Compartilhe no Digg'
+    tumblr:       'Compartilhe no Tumblr'
+    reddit:       'Compartilhe no Reddit'
+    stumbleupon:  'Compartilhe no StumbleUpon'
+    hackernews:   'Compartilhe no Hacker News'
   post:
-    updated:        'Updated'
-    minute_read:    'minute read'
-    related_posts:  'Related Posts'
+    updated:        'Atualizado'
+    minute_read:    'min de leitura'
+    related_posts:  'Posts Relacionados'
   index:
-    coming_soon: 'Coming soon...'
+    coming_soon: 'Em breve...'
   contact:
-    email:    'Email Address'
-    content:  'What would you like to say?'
-    subject:  'New submission!'
-    submit:   'Say Hello'
+    email:    'E-mail'
+    content:  'O que você gostaria de dizer?'
+    subject:  'Assunto'
+    submit:   'Enviar'
     ajax:
-      sending:  'sending..'
-      sent:     'Message sent!'
-      error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
-  og_locale: 'en_US'
+      sending:  'Enviando..'
+      sent:     'Pronto! :D'
+      error:    'Erro! :('
+  thanks: 'Obrigado pelo contato. Vamos responder o mais breve possível.'
+  og_locale: 'pt_BR'
 
 # Build settings
 markdown:     kramdown
